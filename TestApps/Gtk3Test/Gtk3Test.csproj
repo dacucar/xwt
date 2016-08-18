@@ -7,6 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Gtk3Test</RootNamespace>
     <AssemblyName>Gtk3Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -65,13 +66,13 @@
       <Project>{92494904-35FA-4DC9-BDE9-3A3E87AC49D3}</Project>
       <Name>Xwt</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Samples\Samples.csproj">
-      <Project>{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}</Project>
-      <Name>Samples</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Xwt.Gtk\Xwt.Gtk3.csproj">
       <Project>{3B25FD1F-CEBA-4450-8893-DC330FDB56A7}</Project>
       <Name>Xwt.Gtk3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Samples\Samples.csproj">
+      <Project>{88C04B85-B69B-47B4-AB9F-64F6DD4E0897}</Project>
+      <Name>Samples</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
